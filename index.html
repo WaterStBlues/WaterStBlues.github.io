@@ -278,7 +278,6 @@
             }
         }*/
         
-        sampleLogs.style.display = 'none'
         
         function showSampleLogs(){
             var sampleLogs = document.getElementById('sampleLogs');
@@ -327,7 +326,7 @@
         <textarea placeholder="Paste round logs here, make SURE that you're not pasting logs from previous rounds with it" id=inputBox class=inputBox form_id=textInput  autofocus=true required=true></textarea>
     </form>
     <button onclick='startFunction()'>let's go</button>
-    <button onclick='showSampleLogs()'>Click here to show/hide example logs</button>
+    <button onclick='showSampleLogs()' style="display: none;">Click here to show/hide example logs</button>
     
     <hr />
     <div id="insert">
